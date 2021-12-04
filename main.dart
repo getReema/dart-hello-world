@@ -1,14 +1,23 @@
+import "dart:math";
+
 void main() {
 
-String text = 'Hello World';
+double price = 500;
+int quant = 5 ;
 
-print(text.length); // 11
-print(text[1]); // e in Hello 
-//print(text[11]); // Index Exception
-print(text.toUpperCase()); // HELLO WORLD 
-print(text.indexOf('W')); // 6
-print(text.contains('F')); //  False
+quant = quant+4;
+quant += 4;
+quant++;
 
+print(price *quant );
+print(price / quant);
+print(price - quant);
+print(price + quant);
+print(price % quant);
+
+print(min(quant,price));
+print(max(quant,price));
+print(sqrt(200));
 
 }
 
