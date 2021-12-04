@@ -1,17 +1,18 @@
 void main() {
-print('Hello World');
 
-bool isSatrter = true;
+String text = 'Hello World';
 
-print(isSatrter);
+print(text.length); // 11
+print(text[1]); // e in Hello 
+//print(text[11]); // Index Exception
+print(text.toUpperCase()); // HELLO WORLD 
+print(text.indexOf('W')); // 6
+print(text.contains('F')); //  False
+
 
 }
 
 
-/*
-Course Code:
-https://gist.github.com/mikedane/bed8e31d3e2fabd6e5b7b6508d7ee15c
-*/
 
 
 
